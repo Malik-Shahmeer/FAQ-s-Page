@@ -1,0 +1,404 @@
+/* @font-face {
+    font-family: ridley Grotesk;
+    src: url("../font/Ridley Grotesk SemiBold");
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hero-section */
+.discount-offer {
+    text-align: center;
+    padding: 15px;
+}
+
+.discount-offer p {
+    padding: 12px 20px;
+    background: #2F7875;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    direction: rtl;
+    font-family: "Inter", system-ui;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.three-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search svg {
+    margin: 10px;
+}
+
+/* Navigation */
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    font-size: 18px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", system-ui;
+    line-height: 19px;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+/* heading-section */
+
+.heading-para {
+    text-align: center;
+    width: 100%;
+    color: gray;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-para p {
+    width: 762px;
+    font-family: "Inter", system-ui;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.heading-para h1 {
+    color: black;
+    padding-bottom: 30px;
+    width: 458px;
+    font-family: "Inter", system-ui;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58.09px;
+    text-align: center;
+}
+
+/* accordion */
+
+.Accordion-section {
+    width: 790px;
+    margin: auto;
+}
+
+.main-accordion h2 {
+    font-size: 40px;
+    font-family: "Inter", system-ui;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.57px;
+    text-align: right;
+    padding-top: 14%;
+    padding-bottom: 20px;
+}
+
+.main-accordion {
+    line-height: 60px;
+}
+
+.heading-svg {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    border-bottom: 1px solid black;
+    padding: 20px 0 20px 0;
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Inter", system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+/* .active,
+.accordion:hover {
+    background-color: white;
+} */
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.panel p {
+    font-family: "Inter", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(160, 160, 160, 1);
+}
+.accordion.active.panel{
+    max-height: 300px;
+}
+
+/* main-section */
+
+.mountain-image {
+    background-image: url("images/rock-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 368px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-input {
+    direction: rtl;
+}
+
+.mountain-image img {
+    width: 100%;
+}
+
+.mountain-image-heading {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mountain-image-heading h2 {
+    font-size: 48px;
+    font-weight: 500;
+    width: 458px;
+    font-family: "Inter", system-ui;
+    line-height: 58px;
+}
+
+.mountain-image-heading p {
+    font-size: 12px;
+    width: 557px;
+    font-family: "Inter", system-ui;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.mountain-image-heading button {
+    padding: 10px 14px;
+    border-radius: 18px;
+    border: white;
+    width: 136px;
+    height: 58px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.mountain-image-heading input {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px 14px;
+    border-radius: 18px;
+    width: 294px;
+    height: 58px;
+}
+
+/* All-footer-navigation */
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.all-navigation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 3rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.main-container-flag {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.navigation-one h4 {
+    font-size: 28px;
+    font-family: "Inter", system-ui;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.navigation-one li {
+    list-style: none;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Inter", system-ui;
+    line-height: 45px;
+}
+
+.navigation-two h4 {
+    font-size: 28px;
+    font-family: "Inter", system-ui;
+    font-weight: 600;
+}
+
+.navigation-two li {
+    line-height: 45px;
+    list-style: none;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Inter", system-ui;
+}
+
+.heading-navigation h4 {
+    font-size: 28px;
+    font-family: "Inter", system-ui;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.heading-navigation li {
+    list-style: none;
+    font-size: 28px;
+    font-family: "Inter", system-ui;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.last-footer-logo-section {
+    line-height: 40px;
+    direction: rtl;
+}
+
+.social-navigation {
+    display: flex;
+    text-align: end;
+    margin-left: 40px;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.social-nav {
+    padding-left: 30px;
+}
+
+.social-navigation li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 0;
+    font-family: "Inter", system-ui;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Media-Query */
+@media screen and (max-width:367px) {
+    .heading-para {
+        text-align: center;
+        margin: 0 auto;
+        color: gray;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .heading-para h1 {
+        font-size: 35px;
+    }
+
+    .heading-para p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .all-navigation {
+        direction: rtl;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-nav {
+        padding-right: 30px;
+    }
+
+    .social-navigation li {
+        line-height: 46px;
+    }
+
+    .Accordion-section {
+        width: 100%;
+    }
+
+    .panel p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Accordion-section {
+        width: 100%;
+    }
+
+    .panel p {
+        width: 100%;
+    }
+
+    .heading-para {
+        text-align: center;
+        margin: 0 auto;
+        color: gray;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .heading-para h1 {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .heading-para p {
+        font-size: 20px;
+        width: 100%;
+    }
+}
